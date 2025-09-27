@@ -78,8 +78,8 @@
             </a>
             <!-- Menú de Navegación para Escritorio -->
             <div class="hidden md:flex space-x-6 items-center">
-                <a href="#beneficios" class="text-gray-600 hover:text-emerald-600 transition duration-300">Beneficios</a>
-                <a href="#como-funciona" class="text-gray-600 hover:text-emerald-600 transition duration-300">Cómo Funciona</a>
+                <a href="#problema" class="text-gray-600 hover:text-emerald-600 transition duration-300">El Problema</a>
+                <a href="#solucion" class="text-gray-600 hover:text-emerald-600 transition duration-300">La Solución</a>
                 <a href="#dashboard" class="text-gray-600 hover:text-emerald-600 transition duration-300">Impacto</a>
                 <a href="#productos" class="text-gray-600 hover:text-emerald-600 transition duration-300">Productos</a>
                 <a href="#faq" class="text-gray-600 hover:text-emerald-600 transition duration-300">FAQ</a>
@@ -92,8 +92,8 @@
         </nav>
         <!-- Menú Móvil Desplegable (inicialmente oculto) -->
         <div id="mobile-menu" class="hidden md:hidden">
-            <a href="#beneficios" class="block py-2 px-4 text-sm hover:bg-gray-100">Beneficios</a>
-            <a href="#como-funciona" class="block py-2 px-4 text-sm hover:bg-gray-100">Cómo Funciona</a>
+            <a href="#problema" class="block py-2 px-4 text-sm hover:bg-gray-100">El Problema</a>
+            <a href="#solucion" class="block py-2 px-4 text-sm hover:bg-gray-100">La Solución</a>
             <a href="#dashboard" class="block py-2 px-4 text-sm hover:bg-gray-100">Impacto</a>
             <a href="#productos" class="block py-2 px-4 text-sm hover:bg-gray-100">Productos</a>
              <a href="#faq" class="block py-2 px-4 text-sm hover:bg-gray-100">FAQ</a>
@@ -126,76 +126,68 @@
                 </div>
             </div>
         </section>
-
-        <!-- Sección de Beneficios -->
-        <section id="beneficios" class="py-20 fade-in-section">
-            <div class="container mx-auto px-6">
-                 <div class="text-center mb-12">
-                    <h2 class="text-4xl font-bold text-gray-900">Agricultura Inteligente y Sostenible</h2>
-                    <p class="mt-4 text-lg text-gray-600">Maximiza tus resultados con menos recursos.</p>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <!-- Tarjeta de Beneficio 1: Súper Absorción -->
-                    <div class="bg-white p-8 rounded-2xl shadow-lg text-center transform hover:-translate-y-2 transition duration-300">
-                        <div class="bg-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                            <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Súper Absorción</h3>
-                        <p class="text-gray-600">Retiene hasta 500 veces su peso en agua, liberándola gradualmente.</p>
+        
+        <!-- Sección El Problema que Resolvemos -->
+        <section id="problema" class="py-20 fade-in-section">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold text-gray-900">El Problema que Resolvemos</h2>
+                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">México enfrenta una crisis hídrica severa que afecta directamente la productividad agrícola y la seguridad alimentaria de millones.</p>
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <p class="text-6xl font-extrabold gradient-text">68%</p>
+                        <p class="mt-2 text-gray-700 font-semibold">Del territorio mexicano presenta sequía</p>
                     </div>
-                     <!-- Tarjeta de Beneficio 2: 100% Seguro -->
-                    <div class="bg-white p-8 rounded-2xl shadow-lg text-center transform hover:-translate-y-2 transition duration-300">
-                        <div class="bg-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                            <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">100% Seguro</h3>
-                        <p class="text-gray-600">Producto no tóxico, seguro para cultivos, suelo y medio ambiente.</p>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <p class="text-6xl font-extrabold gradient-text">76%</p>
+                        <p class="mt-2 text-gray-700 font-semibold">Del agua se destina a actividades agrícolas</p>
                     </div>
-                     <!-- Tarjeta de Beneficio 3: Ecológico -->
-                    <div class="bg-white p-8 rounded-2xl shadow-lg text-center transform hover:-translate-y-2 transition duration-300">
-                        <div class="bg-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                            <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Ecológico</h3>
-                        <p class="text-gray-600">Biodegradable, se descompone de forma natural sin dejar residuos.</p>
-                    </div>
-                     <!-- Tarjeta de Beneficio 4: Aumenta Productividad -->
-                    <div class="bg-white p-8 rounded-2xl shadow-lg text-center transform hover:-translate-y-2 transition duration-300">
-                        <div class="bg-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                            <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Aumenta Productividad</h3>
-                        <p class="text-gray-600">Mejora el crecimiento y aumenta el rendimiento de la cosecha.</p>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <p class="text-6xl font-extrabold gradient-text">40%</p>
+                        <p class="mt-2 text-gray-700 font-semibold">De pérdida en sistemas de riego tradicionales</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Sección "Cómo Funciona" -->
-        <section id="como-funciona" class="py-20 bg-white fade-in-section">
+        <!-- Sección Nuestra Solución -->
+        <section id="solucion" class="py-20 bg-white fade-in-section">
             <div class="container mx-auto px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-4xl font-bold text-gray-900">La Ciencia Detrás de Cada Gota</h2>
-                    <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Nuestro hidrogel actúa como un reservorio de agua inteligente directamente en la raíz de tus plantas. Así es como funciona:</p>
+                 <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-gray-900">Nuestra Solución: Poliacrilato de Potasio</h2>
+                    <p class="mt-4 text-lg text-gray-600">Tecnología superabsorbente, eficiente y sostenible.</p>
                 </div>
-                <div class="grid md:grid-cols-3 gap-8 text-center">
-                    <!-- Paso 1: Absorción Rápida -->
-                    <div class="p-6">
-                        <img src="https://placehold.co/300x200/d1fae5/059669?text=Paso+1" alt="Absorción de agua" class="rounded-xl shadow-lg mx-auto mb-6">
-                        <h3 class="text-2xl font-bold mb-2">1. Absorción Rápida</h3>
-                        <p class="text-gray-600">Al contacto con el agua de lluvia o riego, los gránulos de Evida se expanden y la absorben, convirtiéndola en un gel nutritivo.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Tarjeta de Beneficio 1: Súper Absorción -->
+                    <div class="bg-white p-8 rounded-2xl shadow-lg text-center transform hover:-translate-y-2 transition duration-300">
+                        <div class="bg-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                           <p class="text-3xl font-bold text-emerald-600">500x</p>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Súper Absorción</h3>
+                        <p class="text-gray-600">Absorbe hasta 500 veces su peso en agua.</p>
                     </div>
-                    <!-- Paso 2: Almacenamiento Eficiente -->
-                     <div class="p-6">
-                        <img src="https://placehold.co/300x200/a7f3d0/059669?text=Paso+2" alt="Almacenamiento de agua" class="rounded-xl shadow-lg mx-auto mb-6">
-                        <h3 class="text-2xl font-bold mb-2">2. Almacenamiento Eficiente</h3>
-                        <p class="text-gray-600">El gel retiene el agua en la zona radicular, evitando la evaporación y el escurrimiento, manteniéndola disponible por más tiempo.</p>
+                     <!-- Tarjeta de Beneficio 2: Liberación Lenta -->
+                    <div class="bg-white p-8 rounded-2xl shadow-lg text-center transform hover:-translate-y-2 transition duration-300">
+                        <div class="bg-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                             <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Liberación Lenta</h3>
+                        <p class="text-gray-600">Liberación gradual de agua y nutrientes según la necesidad de la planta.</p>
                     </div>
-                    <!-- Paso 3: Liberación Inteligente -->
-                     <div class="p-6">
-                        <img src="https://placehold.co/300x200/6ee7b7/059669?text=Paso+3" alt="Liberación de agua" class="rounded-xl shadow-lg mx-auto mb-6">
-                        <h3 class="text-2xl font-bold mb-2">3. Liberación Inteligente</h3>
-                        <p class="text-gray-600">Cuando el suelo se seca, las raíces absorben la humedad del gel según su necesidad, asegurando una hidratación constante.</p>
+                     <!-- Tarjeta de Beneficio 3: Durabilidad -->
+                    <div class="bg-white p-8 rounded-2xl shadow-lg text-center transform hover:-translate-y-2 transition duration-300">
+                        <div class="bg-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                             <p class="text-2xl font-bold text-emerald-600">5-8</p>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Durabilidad</h3>
+                        <p class="text-gray-600">Efectivo en el suelo por un periodo de 5 a 8 años.</p>
+                    </div>
+                     <!-- Tarjeta de Beneficio 4: Biodegradable -->
+                    <div class="bg-white p-8 rounded-2xl shadow-lg text-center transform hover:-translate-y-2 transition duration-300">
+                        <div class="bg-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                           <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">100% Seguro</h3>
+                        <p class="text-gray-600">Biodegradable, se descompone de forma natural sin dejar residuos.</p>
                     </div>
                 </div>
             </div>
@@ -205,12 +197,12 @@
         <section id="dashboard" class="py-20 fade-in-section">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-16">
-                    <h2 class="text-4xl font-bold text-gray-900">Dashboard de Impacto Social y Agrícola</h2>
-                    <p class="mt-4 text-lg text-gray-600">Resultados comprobados que demuestran la eficacia de Evida Hydrogel.</p>
+                    <h2 class="text-4xl font-bold text-gray-900">Dashboard de Impacto y Resultados</h2>
+                    <p class="mt-4 text-lg text-gray-600">Datos que demuestran la eficacia de Evida Hydrogel.</p>
                 </div>
 
                 <!-- KPIs (Indicadores Clave de Desempeño) -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 text-center">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16 text-center">
                     <div class="bg-white p-6 rounded-2xl shadow-lg kpi-card-animation">
                         <p class="text-5xl font-extrabold gradient-text">30-70%</p>
                         <p class="mt-2 text-gray-700 font-semibold">Reducción de Riego</p>
@@ -223,74 +215,31 @@
                         <p class="text-5xl font-extrabold gradient-text">+90%</p>
                         <p class="mt-2 text-gray-700 font-semibold">Tasa de Supervivencia</p>
                     </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-lg kpi-card-animation" style="animation-delay: 0.6s;">
+                        <p class="text-5xl font-extrabold gradient-text">500x</p>
+                        <p class="mt-2 text-gray-700 font-semibold">Capacidad de Retención</p>
+                    </div>
                 </div>
 
                 <!-- Gráficas y Mapa de Impacto -->
-                <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
-                    <!-- Contenedor para las Gráficas principales -->
-                    <div class="lg:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <div class="bg-white p-6 rounded-2xl shadow-lg">
-                            <h3 class="font-bold text-lg mb-4 text-center">Ahorro de Agua con Evida</h3>
-                            <div class="chart-container">
-                                <canvas id="ahorroAguaChart"></canvas>
-                            </div>
-                        </div>
-                        <div class="bg-white p-6 rounded-2xl shadow-lg">
-                            <h3 class="font-bold text-lg mb-4 text-center">Impacto en Productividad</h3>
-                             <div class="chart-container">
-                                <canvas id="productividadChart"></canvas>
-                            </div>
-                        </div>
-                        <div class="md:col-span-2 bg-white p-6 rounded-2xl shadow-lg">
-                            <h3 class="font-bold text-lg mb-4 text-center">Eficiencia en Uso de Fertilizantes</h3>
-                            <div class="chart-container">
-                                <canvas id="nutrientesChart"></canvas>
-                            </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-2xl shadow-lg">
+                        <h3 class="font-bold text-lg mb-4 text-center">Ahorro de Agua por Cultivo</h3>
+                        <div class="chart-container">
+                            <canvas id="ahorroPorCultivoChart"></canvas>
                         </div>
                     </div>
-
-                    <!-- Mapa interactivo de México -->
+                    <div class="bg-white p-6 rounded-2xl shadow-lg">
+                        <h3 class="font-bold text-lg mb-4 text-center">Eficiencia en Uso de Fertilizantes</h3>
+                        <div class="chart-container">
+                            <canvas id="eficienciaNutrientesChart"></canvas>
+                        </div>
+                    </div>
                     <div class="lg:col-span-2 bg-white p-6 rounded-2xl shadow-lg">
-                        <h3 class="font-bold text-lg mb-4 text-center">Nuestro Impacto en México</h3>
-                        <p class="text-center text-sm text-gray-500 mb-4">Zonas con estrés hídrico donde nuestra solución tiene mayor potencial.</p>
-                        <!-- SVG del mapa de México. Los estados con `fill="#10B981"` (verde esmeralda) representan zonas de mayor impacto o estrés hídrico. -->
-                        <svg viewBox="0 0 1039 692" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto">
-                           <path d="M112.5 137.5L108 141L101 135L102 129L108.5 120.5L115 122L120 128.5L112.5 137.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Baja-California-Sur"></path>
-                            <path d="M120 128.5L115 122L108.5 120.5L110.5 106L120.5 81L130.5 61.5L138 48L148 40.5L155 35.5L157 30L160.5 31L163 42L159 52.5L153 62.5L151 76.5L142 97L138.5 110L135 119L120 128.5Z" fill="#10B981" stroke="#059669" stroke-width="1.5" class="hover:fill-emerald-600 transition-colors duration-300" id="Baja-California"></path>
-                            <path d="M160.5 31L167 36L182.5 50L193.5 60.5L204 74L213.5 84L225.5 101.5L230 115.5L230.5 128L218 139L208 141L196.5 145.5L194.5 152L188 153L184.5 159L180 158L166 142.5L163 131.5L163.5 119.5L166.5 105L169.5 89.5L167 71L163 56L163 42L160.5 31Z" fill="#10B981" stroke="#059669" stroke-width="1.5" class="hover:fill-emerald-600 transition-colors duration-300" id="Sonora"></path>
-                            <path d="M230.5 128L230 115.5L241 120L249.5 132L253 142L253.5 152L249 161.5L241.5 171.5L241.5 180.5L232.5 182L224 176.5L218 168.5L216.5 159.5L218 139L230.5 128Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Sinaloa"></path>
-                            <path d="M253.5 152L253 142L249.5 132L241 120L230 115.5L225.5 101.5L242.5 102L261.5 112L282.5 123.5L299 133.5L317.5 145.5L327 159L319.5 169.5L309 173L296.5 178.5L286.5 186.5L280 196L272.5 202L261 204.5L251.5 198L241.5 180.5L241.5 171.5L249 161.5L253.5 152Z" fill="#10B981" stroke="#059669" stroke-width="1.5" class="hover:fill-emerald-600 transition-colors duration-300" id="Chihuahua"></path>
-                            <path d="M251.5 198L261 204.5L272.5 202L280 196L286.5 186.5L296.5 178.5L309 173L319.5 169.5L327 159L343.5 171L351.5 184L355 201L343 214L328 222.5L313 226.5L302.5 231L292 233.5L281 229L265.5 217L251.5 198Z" fill="#10B981" stroke="#059669" stroke-width="1.5" class="hover:fill-emerald-600 transition-colors duration-300" id="Durango"></path>
-                            <path d="M327 159L317.5 145.5L322.5 139.5L332.5 134L342 133L351 138L360 148L370 152.5L381.5 162.5L383 172.5L369.5 178L351.5 184L343.5 171L327 159Z" fill="#10B981" stroke="#059669" stroke-width="1.5" class="hover:fill-emerald-600 transition-colors duration-300" id="Coahuila"></path>
-                            <path d="M281 229L292 233.5L302.5 231L313 226.5L320.5 231.5L327 240.5L324.5 249.5L317.5 254.5L306.5 255.5L294.5 252L286 244L281 229Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Zacatecas"></path>
-                            <path d="M286 244L294.5 252L306.5 255.5L317.5 254.5L324.5 249.5L327 240.5L320.5 231.5L328 222.5L343 214L355 201L351.5 184L369.5 178L383 172.5L381.5 162.5L392 168.5L402 178.5L412 185L421 199.5L430.5 212L431.5 221L424.5 229.5L414 235L400.5 244.5L388 253.5L380 260.5L369 265.5L361.5 272L351 274.5L341 270.5L331.5 264L323 264.5L309 260L295 256.5L286 244Z" fill="#10B981" stroke="#059669" stroke-width="1.5" class="hover:fill-emerald-600 transition-colors duration-300" id="Nuevo-Leon"></path>
-                            <path d="M265.5 217L281 229L286 244L281 254.5L273 260L264.5 264L259 261.5L254.5 253.5L254 245L258 238L265.5 228.5L265.5 217Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Nayarit"></path>
-                            <path d="M431.5 221L430.5 212L438 214.5L449.5 220L458.5 230L464 240.5L462.5 249.5L453.5 252.5L444 252.5L434.5 248.5L424.5 229.5L431.5 221Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Tamaulipas"></path>
-                            <path d="M309 260L323 264.5L331.5 264L341 270.5L351 274.5L361.5 272L369 265.5L380 260.5L388 253.5L400.5 244.5L414 235L424.5 229.5L434.5 248.5L444 252.5L453.5 252.5L462.5 249.5L464 240.5L471.5 251.5L474 262.5L469 270.5L456.5 277L444.5 281L432 284.5L422.5 290.5L412.5 292.5L401.5 288.5L389.5 281.5L378 276.5L365.5 276L350 280L336.5 285L324.5 285L309 277.5L309 260Z" fill="#10B981" stroke="#059669" stroke-width="1.5" class="hover:fill-emerald-600 transition-colors duration-300" id="San-Luis-Potosi"></path>
-                            <path d="M281 254.5L286 244L295 256.5L309 260L309 277.5L296.5 278.5L284 271.5L281 254.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Aguascalientes"></path>
-                            <path d="M284 271.5L296.5 278.5L309 277.5L324.5 285L336.5 285L350 280L350.5 288L343 297L330.5 301.5L323 306.5L311.5 306L300 299.5L287.5 289L284 271.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Jalisco"></path>
-                            <path d="M365.5 276L378 276.5L389.5 281.5L401.5 288.5L407 295.5L402 301.5L392.5 303.5L382 301L371 295.5L360.5 291.5L350.5 288L350 280L365.5 276Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Guanajuato"></path>
-                            <path d="M300 299.5L311.5 306L323 306.5L318 316.5L306.5 320L296 313.5L290.5 305L300 299.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Colima"></path>
-                            <path d="M382 301L392.5 303.5L402 301.5L407 295.5L412.5 292.5L422.5 290.5L426.5 296L423 302L413.5 306.5L402.5 309.5L392.5 311L382 301Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Queretaro"></path>
-                            <path d="M330.5 301.5L343 297L350.5 288L360.5 291.5L371 295.5L382 301L392.5 311L402.5 309.5L413.5 306.5L423 302L426.5 296L432 284.5L444.5 281L456.5 277L469 270.5L474 262.5L480 268L487.5 278.5L487.5 288.5L481 296.5L474 301L465.5 305L456.5 306.5L448 309.5L440.5 315.5L431.5 321L425.5 328.5L429 336.5L438 340.5L428.5 347.5L419 347L409 341.5L400 335.5L389 331.5L377.5 330.5L366.5 326.5L356.5 326.5L346 321.5L337 318L323 322.5L318 316.5L323 306.5L330.5 301.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Michoacan"></path>
-                            <path d="M425.5 328.5L431.5 321L440.5 315.5L448 309.5L456.5 306.5L465.5 305L474 301L481 296.5L487.5 288.5L495 294.5L500.5 301.5L503.5 310L503.5 319.5L498 325.5L489 328.5L480.5 332.5L471.5 335L461.5 335.5L452 332.5L442.5 331L435.5 330L425.5 328.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Mexico"></path>
-                            <path d="M487.5 288.5L487.5 278.5L494 284L495 294.5L487.5 288.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Tlaxcala"></path>
-                            <path d="M422.5 290.5L412.5 292.5L407 295.5L392.5 303.5L392.5 311L402.5 309.5L413.5 306.5L423 302L426.5 296L422.5 290.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Hidalgo"></path>
-                            <path d="M435.5 330L442.5 331L452 332.5L461.5 335.5L466.5 340L462.5 346.5L454 348L445.5 345L438 340.5L435.5 330Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Morelos"></path>
-                            <path d="M461.5 335.5L471.5 335L480.5 332.5L489 328.5L498 325.5L503.5 319.5L503.5 310L500.5 301.5L495 294.5L494 284L487.5 278.5L480 268L474 262.5L482 260.5L491.5 264.5L501 271.5L511 280.5L519 291.5L523.5 302.5L523.5 312L518 319.5L509.5 324L500.5 329L491 333L482.5 338L474.5 342L466.5 340L461.5 335.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Puebla"></path>
-                            <path d="M511 280.5L501 271.5L491.5 264.5L482 260.5L474 262.5L471.5 251.5L464 240.5L462.5 249.5L464 256.5L470 264.5L480 268L487.5 278.5L494 284L503.5 292.5L513.5 300L523.5 302.5L533.5 302.5L543 299L552.5 292L559 283.5L560.5 274.5L555.5 267.5L546.5 263.5L536.5 263.5L526.5 267.5L518.5 272.5L511 280.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Veracruz"></path>
-                            <path d="M377.5 330.5L389 331.5L400 335.5L409 341.5L419 347L428.5 347.5L438 340.5L445.5 345L454 348L462.5 346.5L466.5 340L474.5 342L482.5 338L491 333L500.5 329L509.5 324L518 319.5L523.5 312L529 319L535 327.5L535.5 338.5L529.5 346.5L520 351L509.5 354L499 355L488 352.5L477 348.5L466.5 347.5L456 349.5L445.5 354.5L435 357.5L424.5 359.5L414 358.5L404 354.5L393.5 351L383 344L377.5 330.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Guerrero"></path>
-                            <path d="M523.5 312L523.5 302.5L519 291.5L526 295.5L535 307.5L535 318L529 319L523.5 312Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Oaxaca-part-1"></path>
-                            <path d="M535 327.5L529 319L535 307.5L526 295.5L519 291.5L511 280.5L518.5 272.5L526.5 267.5L536.5 263.5L546.5 263.5L555.5 267.5L560.5 274.5L566 280.5L572 289L575.5 299.5L575 310L569.5 317.5L561.5 322.5L552 325L543.5 325.5L535 327.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Oaxaca-part-2"></path>
-                            <path d="M552.5 292L543 299L533.5 302.5L523.5 302.5L526 295.5L535.5 289L545.5 284.5L552.5 292Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Oaxaca-part-3"></path>
-                            <path d="M575.5 299.5L572 289L566 280.5L560.5 274.5L559 283.5L563.5 291.5L570.5 299.5L575.5 299.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Chiapas-part-1"></path>
-                            <path d="M552 325L561.5 322.5L569.5 317.5L575 310L570.5 299.5L563.5 291.5L559 283.5L552.5 292L556 299.5L557 308.5L552 316.5L552 325Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Chiapas-part-2"></path>
-                            <path d="M560.5 274.5L555.5 267.5L560 261L568 258L577.5 258.5L587 263.5L594 270L597 278.5L594.5 285.5L587.5 289.5L579.5 289.5L572 289L566 280.5L560.5 274.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Tabasco"></path>
-                            <path d="M594.5 285.5L597 278.5L603.5 282.5L608 289L608 297.5L603 303.5L596 304.5L589 300.5L587.5 289.5L594.5 285.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Campeche"></path>
-                            <path d="M608 289L603.5 282.5L597 278.5L594 270L597 263.5L603 259.5L611.5 259.5L619.5 264.5L625 271.5L626.5 280L622.5 287.5L615 291.5L608 289Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Yucatan"></path>
-                            <path d="M622.5 287.5L626.5 280L625 271.5L628 268L634.5 268.5L641 273L644.5 279L645 286.5L641.5 292.5L635 295.5L628.5 293L622.5 287.5Z" fill="#a7f3d0" stroke="#10B981" stroke-width="1.5" class="hover:fill-emerald-500 transition-colors duration-300" id="Quintana-Roo"></path>
-                            <text x="450" y="320" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">CDMX</text>
-                        </svg>
+                        <h3 class="font-bold text-lg mb-4 text-center">Incremento del Rendimiento a lo Largo del Tiempo</h3>
+                        <div class="chart-container">
+                            <canvas id="rendimientoTiempoChart"></canvas>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -344,36 +293,8 @@
             </div>
         </section>
 
-        <!-- Sección de Testimonios -->
-        <section class="py-20 bg-emerald-50 fade-in-section">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-4xl font-bold text-gray-900">Lo que Dicen Nuestros Clientes</h2>
-                    <p class="mt-4 text-lg text-gray-600">Historias de éxito de agricultores como tú.</p>
-                </div>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <!-- Testimonio 1 -->
-                    <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col sm:flex-row items-center gap-6">
-                        <img class="w-24 h-24 rounded-full object-cover" src="https://images.unsplash.com/photo-1560787313-5dff3307e257?q=80&w=1964&auto=format&fit=crop" alt="Foto de cliente satisfecho" loading="lazy">
-                        <div>
-                            <p class="text-gray-600 italic">"Desde que uso Evida, reduje mis ciclos de riego a la mitad y mis cosechas de maíz nunca habían sido tan abundantes. Es una inversión que se paga sola."</p>
-                            <p class="mt-4 font-bold text-emerald-700">- Carlos R., Agricultor en Sinaloa</p>
-                        </div>
-                    </div>
-                    <!-- Testimonio 2 -->
-                    <div class="bg-white p-8 rounded-2xl shadow-lg flex flex-col sm:flex-row items-center gap-6">
-                        <img class="w-24 h-24 rounded-full object-cover" src="https://images.unsplash.com/photo-1599485659222-282f9ba3dc85?q=80&w=1964&auto=format&fit=crop" alt="Foto de clienta satisfecha" loading="lazy">
-                        <div>
-                            <p class="text-gray-600 italic">"En mi vivero, la supervivencia de los plantones es crucial. Con Evida Hydrogel, la tasa de éxito es casi del 100%. ¡Mis clientes están encantados!"</p>
-                            <p class="mt-4 font-bold text-emerald-700">- Sofía G., Propietaria de Vivero en Jalisco</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
         <!-- Sección de Preguntas Frecuentes (FAQ) -->
-        <section id="faq" class="py-20 bg-white fade-in-section">
+        <section id="faq" class="py-20 fade-in-section">
             <div class="container mx-auto px-6 max-w-4xl">
                  <div class="text-center mb-12">
                     <h2 class="text-4xl font-bold text-gray-900">Preguntas Frecuentes</h2>
@@ -381,7 +302,7 @@
                 </div>
                 <div class="space-y-4">
                     <!-- Pregunta FAQ 1 -->
-                    <div class="bg-gray-50 rounded-lg">
+                    <div class="bg-white rounded-lg shadow">
                         <button class="faq-question w-full flex justify-between items-center text-left p-6 font-semibold text-lg focus:outline-none">
                             <span>¿El hidrogel es tóxico o daña el medio ambiente?</span>
                             <svg class="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
@@ -391,17 +312,17 @@
                         </div>
                     </div>
                      <!-- Pregunta FAQ 2 -->
-                    <div class="bg-gray-50 rounded-lg">
+                    <div class="bg-white rounded-lg shadow">
                         <button class="faq-question w-full flex justify-between items-center text-left p-6 font-semibold text-lg focus:outline-none">
                             <span>¿Cuánto tiempo dura el producto en el suelo?</span>
                             <svg class="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                         </button>
                         <div class="faq-answer px-6 pb-6 text-gray-600">
-                            <p>La efectividad de Evida Hydrogel puede durar entre 3 y 5 años en el suelo, dependiendo de las condiciones climáticas y el tipo de terreno. Durante este tiempo, seguirá absorbiendo y liberando agua en múltiples ciclos.</p>
+                            <p>La efectividad de Evida Hydrogel puede durar entre 5 y 8 años en el suelo, dependiendo de las condiciones climáticas y el tipo de terreno. Durante este tiempo, seguirá absorbiendo y liberando agua en múltiples ciclos.</p>
                         </div>
                     </div>
                      <!-- Pregunta FAQ 3 -->
-                    <div class="bg-gray-50 rounded-lg">
+                    <div class="bg-white rounded-lg shadow">
                         <button class="faq-question w-full flex justify-between items-center text-left p-6 font-semibold text-lg focus:outline-none">
                             <span>¿Cómo sé qué cantidad de producto necesito?</span>
                             <svg class="w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
@@ -475,7 +396,7 @@
                  <div>
                     <h4 class="font-semibold">Navegación</h4>
                     <ul class="mt-4 space-y-2 text-sm">
-                        <li><a href="#como-funciona" class="text-gray-400 hover:text-white">Cómo Funciona</a></li>
+                        <li><a href="#solucion" class="text-gray-400 hover:text-white">La Solución</a></li>
                         <li><a href="#dashboard" class="text-gray-400 hover:text-white">Impacto</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white">Preguntas Frecuentes</a></li>
                     </ul>
@@ -576,73 +497,64 @@
                 }
             };
             
-            // Gráfica de Ahorro de Agua (Tipo Dona)
-            const ahorroCtx = document.getElementById('ahorroAguaChart')?.getContext('2d');
-            if(ahorroCtx) new Chart(ahorroCtx, {
-                type: 'doughnut',
-                data: {
-                    labels: ['Agua Ahorrada', 'Agua Usada'],
-                    datasets: [{ 
-                        label: 'Ahorro de Agua', 
-                        data: [55, 45], /* Datos de ejemplo: 55% ahorrado, 45% usado */
-                        backgroundColor: ['#10B981', '#E5E7EB'], /* Colores para las secciones */
-                        borderColor: ['#ffffff'], 
-                        borderWidth: 4, 
-                        hoverOffset: 8 
-                    }]
-                },
-                options: { ...chartOptions, cutout: '70%' } /* Opciones específicas de la gráfica de dona */
-            });
-
-            // Gráfica de Productividad (Tipo Barras)
-            const prodCtx = document.getElementById('productividadChart')?.getContext('2d');
-            if(prodCtx) new Chart(prodCtx, {
+            // Gráfica de Ahorro de Agua por Cultivo (Barras)
+            const ahorroCultivoCtx = document.getElementById('ahorroPorCultivoChart')?.getContext('2d');
+            if(ahorroCultivoCtx) new Chart(ahorroCultivoCtx, {
                 type: 'bar',
                 data: {
-                    labels: ['Rendimiento', 'Biomasa'],
-                    datasets: [
-                        { 
-                            label: 'Sin Evida', 
-                            data: [100, 100], 
-                            backgroundColor: '#9CA3AF', /* Gris medio */
-                            borderRadius: 6 
-                        }, 
-                        { 
-                            label: 'Con Evida', 
-                            data: [165, 125], /* Incremento del 65% y 25% */
-                            backgroundColor: '#10B981', /* Verde esmeralda */
-                            borderRadius: 6 
-                        }
-                    ]
+                    labels: ['Maíz', 'Tomate', 'Frijol', 'Chile'],
+                    datasets: [{
+                        label: 'Riego Tradicional (%)',
+                        data: [100, 100, 100, 100],
+                        backgroundColor: '#9CA3AF',
+                        borderRadius: 6
+                    }, {
+                        label: 'Con Evida Hydrogel (%)',
+                        data: [55, 60, 50, 65], // Datos de ejemplo de ahorro
+                        backgroundColor: '#10B981',
+                        borderRadius: 6
+                    }]
                 },
-                options: chartOptions /* Usa las opciones base */
+                options: chartOptions
             });
 
-            // Gráfica de Eficiencia en Uso de Fertilizantes (Tipo Línea)
-            const nutriCtx = document.getElementById('nutrientesChart')?.getContext('2d');
-            if(nutriCtx) new Chart(nutriCtx, {
+            // Gráfica de Eficiencia en Uso de Fertilizantes (Barras)
+            const eficienciaNutrientesCtx = document.getElementById('eficienciaNutrientesChart')?.getContext('2d');
+            if(eficienciaNutrientesCtx) new Chart(eficienciaNutrientesCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['Nitrógeno', 'Fósforo', 'Potasio'],
+                    datasets: [{
+                        label: 'Aprovechamiento Tradicional (%)',
+                        data: [45, 35, 40],
+                        backgroundColor: '#9CA3AF',
+                        borderRadius: 6
+                    }, {
+                        label: 'Aprovechamiento con Hydrogel (%)',
+                        data: [77, 85, 100], // El 102% se representa como 100 para la escala
+                        backgroundColor: '#10B981',
+                        borderRadius: 6
+                    }]
+                },
+                options: { ...chartOptions, indexAxis: 'y' } // Barras horizontales
+            });
+
+            // Gráfica de Incremento del Rendimiento (Línea)
+            const rendimientoTiempoCtx = document.getElementById('rendimientoTiempoChart')?.getContext('2d');
+            if(rendimientoTiempoCtx) new Chart(rendimientoTiempoCtx, {
                 type: 'line',
                 data: {
-                    labels: ['Inicio', 'Mitad Ciclo', 'Cosecha'],
-                    datasets: [
-                        { 
-                            label: 'Aprovechamiento Sin Evida', 
-                            data: [30, 35, 38], 
-                            borderColor: '#9CA3AF', 
-                            tension: 0.4, 
-                            fill: false /* Sin relleno bajo la línea */
-                        },
-                        { 
-                            label: 'Aprovechamiento Con Evida', 
-                            data: [50, 60, 62], 
-                            borderColor: '#10B981', 
-                            backgroundColor: 'rgba(16, 185, 129, 0.1)', 
-                            tension: 0.4, 
-                            fill: true /* Con relleno bajo la línea */
-                        }
-                    ]
+                    labels: ['Mes 1', 'Mes 2', 'Mes 3', 'Mes 4', 'Mes 5'],
+                    datasets: [{ 
+                        label: 'Rendimiento (%)', 
+                        data: [10, 25, 40, 55, 65],
+                        borderColor: '#10B981', 
+                        backgroundColor: 'rgba(16, 185, 129, 0.1)', 
+                        tension: 0.4, 
+                        fill: true
+                    }]
                 },
-                options: chartOptions /* Usa las opciones base */
+                options: chartOptions
             });
         });
     </script>
